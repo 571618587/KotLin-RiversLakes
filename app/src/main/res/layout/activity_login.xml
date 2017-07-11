@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_login"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:background="@mipmap/bg">
+    <ImageView android:layout_width="wrap_content"
+               android:src="@mipmap/logo"
+               android:layout_gravity="center_horizontal"
+               android:focusable="true"
+               android:focusableInTouchMode="true"
+               android:layout_marginTop="@dimen/y136"
+               android:layout_height="wrap_content"/>
+
+    <LinearLayout android:layout_width="@dimen/x650"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="@dimen/y86"
+                  android:background="@drawable/shape_write_translucent_fillet"
+                  android:orientation="horizontal"
+                  android:layout_height="@dimen/y100">
+        <TextView android:layout_width="@dimen/x130"
+                  android:layout_height="match_parent"
+                  android:text="@string/quhao_86"
+                  android:gravity="center"
+                  android:textSize="@dimen/x30"
+                  android:textColor="@android:color/white"
+        />
+        <View android:layout_width="@dimen/x1"
+              android:layout_height="@dimen/y40"
+              android:layout_marginRight="@dimen/x10"
+              android:layout_gravity="center_vertical"
+              android:background="@color/gray_acadaa"
+        />
+        <EditText android:layout_width="match_parent"
+                  android:id="@+id/edit_phone"
+                  android:background="@android:color/transparent"
+                  android:hint="@string/please_write_phone"
+                  android:textColor="@color/gray_ededed"
+                  android:lines="1"
+                  android:inputType="number"
+                  android:maxLength="11"
+                  android:textSize="@dimen/x30"
+                  android:textColorHint="@color/gray_dddddd"
+                  android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="@dimen/x650"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="@dimen/y50"
+                  android:background="@drawable/shape_write_translucent_fillet"
+                  android:orientation="horizontal"
+                  android:layout_height="@dimen/y100">
+        <TextView android:layout_width="@dimen/x130"
+                  android:layout_height="match_parent"
+                  android:text="@string/password"
+                  android:gravity="center"
+                  android:textSize="@dimen/x30"
+                  android:textColor="@android:color/white"
+        />
+        <View android:layout_width="@dimen/x1"
+              android:layout_height="@dimen/y40"
+              android:layout_marginRight="@dimen/x10"
+              android:layout_gravity="center_vertical"
+              android:background="@color/gray_acadaa"
+        />
+        <EditText android:layout_width="match_parent"
+                  android:id="@+id/edit_password"
+                  android:background="@android:color/transparent"
+                  android:hint="@string/please_write_password"
+                  android:textColor="@color/gray_ededed"
+                  android:lines="1"
+                  android:maxLength="10"
+                  android:inputType="textPassword"
+                  android:textSize="@dimen/x30"
+                  android:textColorHint="@color/gray_dddddd"
+                  android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="@dimen/y650" android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:layout_gravity="center_horizontal"
+    >
+        <!--忘记密码-->
+        <TextView android:layout_width="wrap_content"
+                  android:layout_marginTop="@dimen/y20"
+                  android:textSize="@dimen/x28"
+                  android:clickable="true"
+                  android:id="@+id/show_forget_password"
+                  android:textColor="@color/gray_ededed"
+                  android:layout_gravity="right"
+                  android:text="@string/forget_password"
+                  android:layout_height="wrap_content"/>
+
+        <Button android:layout_width="match_parent"
+                android:id="@+id/btn_login"
+                android:layout_marginTop="@dimen/y90"
+                android:textSize="@dimen/x34"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:text="@string/login"
+                android:background="@drawable/selector_orange_fillet"
+                android:layout_height="@dimen/y100"/>
+        <Button android:layout_width="match_parent"
+                android:id="@+id/btn_register"
+                android:layout_marginTop="@dimen/y30"
+                android:textSize="@dimen/x34"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:text="@string/register"
+                android:background="@drawable/selector_dark_purple_fillet"
+                android:layout_height="@dimen/y100"/>
+
+        <LinearLayout android:layout_width="@dimen/x226" android:layout_height="@dimen/y80"
+                      android:orientation="horizontal"
+                      android:layout_marginTop="@dimen/y45"
+                      android:layout_gravity="center_horizontal"
+        >
+            <ImageView android:layout_width="@dimen/x80" android:layout_height="@dimen/y80"
+                       android:src="@mipmap/wechat"
+                       android:padding="@dimen/x15"
+                       android:id="@+id/img_wechat"
+                       android:background="@drawable/shape_write_translucent_circular"
+            />
+            <ImageView android:layout_width="@dimen/x80" android:layout_height="@dimen/y80"
+                       android:src="@mipmap/qq"
+                       android:padding="@dimen/x15"
+                       android:id="@+id/img_qq"
+                       android:background="@drawable/shape_write_translucent_circular"
+                       android:layout_marginLeft="@dimen/x66"
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

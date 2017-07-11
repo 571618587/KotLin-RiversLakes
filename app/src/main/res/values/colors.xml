@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gray_F9F9F9">#F9F9F9</color>
+    <color name="blick_1d1e1e">#1d1e1e</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray_999999">#999999</color>
+    <color name="gray_EFEFDE">#EFEFDE</color>
+    <color name="blick_333333">#333333</color>
+    <color name="blue_00AEE7">#00AEE7</color>
+    <color name="blue_009FDB">#009FDB</color>
+    <color name="blue_00B2EA">#00B2EA</color>
+    <color name="gray_F0F0E9">#F0F0E9</color>
+    <color name="blue_0099CC">#0099CC</color>
+    <color name="gray_797979">#797979</color>
+    <color name="gray_acadaa">#acadaa</color>
+    <color name="gray_ededed">#ededed</color>
+    <color name="gray_d0d0d0">#d0d0d0</color>
+    <color name="gray_dddddd">#dddddd</color>
+    <color name="orange_ed5e27">#ed5e27</color>
+    <color name="orange_E05925">#E05925</color>
+    <color name="dark_purple_2F4354">#2F4354</color>
+    <color name="dark_purple_344a5d">#344a5d</color>
+</resources>
