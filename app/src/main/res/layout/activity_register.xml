@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:id="@+id/activity_register"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="match_parent">
+    <com.samson.rivers_lakes.lower.widget.CustomEditView
+            android:layout_width="@dimen/x650"
+            app:unSelectDrawable="@drawable/shape_gray_line_fillet"
+            app:selectDrawable="@drawable/shape_orange_line_fillet"
+            app:selectImg="@mipmap/phone"
+            app:unSelectImg="@mipmap/dianhua"
+            app:textHint="@string/please_write_phone"
+            app:maxLength="11"
+            app:inputType="number"
+            android:layout_marginTop="@dimen/y40"
+            android:layout_height="@dimen/x80"/>
+
+    <LinearLayout android:layout_width="@dimen/x650" android:layout_height="@dimen/y80"
+                  android:layout_marginTop="@dimen/y40"
+                  android:orientation="horizontal"
+    >
+        <com.samson.rivers_lakes.lower.widget.CustomEditView
+                android:layout_width="@dimen/x430"
+                android:layout_gravity="left"
+                app:unSelectDrawable="@drawable/shape_gray_line_fillet"
+                app:selectDrawable="@drawable/shape_orange_line_fillet"
+                app:selectImg="@mipmap/yanzhengma"
+                app:unSelectImg="@mipmap/yanzhengmaun"
+                app:maxLength="4"
+                app:inputType="number"
+                app:textHint="@string/please_write_code"
+                android:layout_height="@dimen/x80"/>
+        <Button android:layout_width="@dimen/x200"
+                android:layout_height="@dimen/y80"
+                android:text="@string/send_message"
+                android:layout_marginLeft="@dimen/x20"
+                android:textColor="@android:color/white"
+                android:background="@drawable/selector_orange_fillet"
+        />
+    </LinearLayout>
+    <com.samson.rivers_lakes.lower.widget.CustomEditView
+            android:layout_width="@dimen/x650"
+            app:unSelectDrawable="@drawable/shape_gray_line_fillet"
+            app:selectDrawable="@drawable/shape_orange_line_fillet"
+            app:selectImg="@mipmap/mima"
+            app:unSelectImg="@mipmap/mimaun"
+            app:textHint="@string/password"
+            app:maxLength="20"
+            app:inputType="password"
+            android:layout_marginTop="@dimen/y40"
+            android:layout_height="@dimen/x80"/>
+    <com.samson.rivers_lakes.lower.widget.CustomEditView
+            android:layout_width="@dimen/x650"
+            app:unSelectDrawable="@drawable/shape_gray_line_fillet"
+            app:selectDrawable="@drawable/shape_orange_line_fillet"
+            app:selectImg="@mipmap/mima"
+            app:unSelectImg="@mipmap/mimaun"
+            app:textHint="@string/confirm_password"
+            app:maxLength="20"
+            app:inputType="password"
+            android:layout_marginTop="@dimen/y40"
+            android:layout_height="@dimen/x80"/>
+    <LinearLayout android:layout_width="@dimen/x650" android:layout_height="@dimen/y40"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="@dimen/y40"
+    >
+        <CheckBox android:layout_width="@dimen/x37"
+                  android:layout_height="@dimen/y37"
+                  android:button="@null"
+                  android:id="@+id/checkbox_rules"
+                  android:layout_gravity="center_vertical"
+                  android:background="@drawable/selector_checkbox_bg"/>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/I_agree_with_the_rules"
+                  android:textSize="@dimen/x30"
+                  android:textColor="@color/blick_333333"
+                  android:layout_marginLeft="@dimen/x20"
+        />
+
+    </LinearLayout>
+    <Button android:layout_width="@dimen/y690"
+            android:id="@+id/btn_register"
+            android:layout_marginTop="@dimen/y172"
+            android:textSize="@dimen/x30"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:text="@string/register"
+            android:background="@drawable/selector_orange_fillet"
+            android:layout_height="@dimen/y90"/>
+</LinearLayout>

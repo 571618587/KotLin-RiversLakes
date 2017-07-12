@@ -126,8 +126,9 @@ abstract class BaseActivity : FragmentActivity(), BaseView {
         loadingView!!.visibility = View.GONE
         frameLayout.addView(loadingView)
         //如果是沉浸式标题栏
-        if (isImmersiveToolBar)
+        if (isImmersiveToolBar) {
             frameLayout.addView(toolbar)
+        }
         layout!!.addView(frameLayout)
     }
 

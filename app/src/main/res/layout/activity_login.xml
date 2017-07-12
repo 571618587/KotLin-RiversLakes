@@ -7,13 +7,13 @@
         android:orientation="vertical"
         android:layout_height="match_parent"
         android:background="@mipmap/bg">
-    <ImageView android:layout_width="wrap_content"
+    <ImageView android:layout_width="@dimen/x185"
                android:src="@mipmap/logo"
                android:layout_gravity="center_horizontal"
                android:focusable="true"
                android:focusableInTouchMode="true"
                android:layout_marginTop="@dimen/y136"
-               android:layout_height="wrap_content"/>
+               android:layout_height="@dimen/y250"/>
 
     <LinearLayout android:layout_width="@dimen/x650"
                   android:layout_gravity="center_horizontal"

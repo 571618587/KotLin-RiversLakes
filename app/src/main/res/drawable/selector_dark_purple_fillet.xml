@@ -7,9 +7,9 @@
             <corners android:radius="@dimen/x10"/>
         </shape>
     </item>
-    <item android:state_pressed="false">
+    <item android:state_pressed="false" >
         <shape>
-            <solid android:color="@color/dark_purple_344a5d"/>
+            <solid android:color="@color/dark_purple_344A5D"/>
             <corners android:radius="@dimen/x10"/>
         </shape>
     </item>

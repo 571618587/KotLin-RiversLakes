@@ -32,7 +32,9 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".presentation.activities.LoginActivity">
+        <activity android:name=".presentation.activities.LoginActivity" android:launchMode="singleTask">
+        </activity>
+        <activity android:name=".presentation.activities.RegisterActivity">
         </activity>
     </application>
 

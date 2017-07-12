@@ -9,6 +9,11 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="RulesPopupWindow">
+        <item name="android:windowEnterAnimation">@anim/in_rules_popup_window</item>
+        <item name="android:windowExitAnimation">@anim/out_rules_popup_window</item>
+    </style>
+
 
     <style name="tweetName">
         <item name="android:textColor">@color/blick_1d1e1e</item>

@@ -30,4 +30,20 @@
         <attr name="animationDuration" format="integer|reference"/>
 
     </declare-styleable>
+    <declare-styleable name="CustomEditView">
+        <attr name="unSelectImg" format="reference"></attr>
+        <attr name="selectImg" format="reference"></attr>
+        <attr name="unSelectDrawable" format="reference"></attr>
+        <attr name="selectDrawable" format="reference"></attr>
+        <attr name="textHint" format="string"></attr>
+        <attr name="inputType" format="integer">
+            <enum name="text" value="1">
+            </enum>
+            <enum name="password" value="2">
+            </enum>
+            <enum name="number" value="3">
+            </enum>
+        </attr>
+        <attr name="maxLength" format="integer"/>
+    </declare-styleable>
 </resources>

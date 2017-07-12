@@ -22,5 +22,8 @@
     <color name="orange_ed5e27">#ed5e27</color>
     <color name="orange_E05925">#E05925</color>
     <color name="dark_purple_2F4354">#2F4354</color>
-    <color name="dark_purple_344a5d">#344a5d</color>
+    <color name="dark_purple_344A5D">#344A5D</color>
+    <color name="gray_666666">#666666</color>
+    <color name="gray_c0c8cd">#c0c8cd</color>
+    <color name="transparent_88000000">#88000000</color>
 </resources>

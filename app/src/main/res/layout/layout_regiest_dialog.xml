@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="@dimen/x530"
+              android:gravity="center_horizontal"
+              android:layout_gravity="center"
+              android:background="@drawable/shape_write_fillet"
+              android:paddingLeft="@dimen/x45"
+              android:paddingRight="@dimen/x45"
+              android:layout_height="@dimen/y752">
+
+
+    <TextView android:layout_width="wrap_content"
+              android:textSize="@dimen/x30"
+              android:textColor="@color/blick_333333"
+              android:layout_marginTop="@dimen/x50"
+              android:text="@string/rivers_lakes_rules"
+              android:layout_height="wrap_content"/>
+
+    <ScrollView android:layout_width="@dimen/y436" android:layout_height="@dimen/y465"
+                android:scrollbars="none"
+                android:layout_marginTop="@dimen/y40"
+    >
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:textSize="@dimen/x26"
+                  android:textColor="@color/gray_666666"
+                  android:text="测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字测试文字"
+        />
+    </ScrollView>
+    <Button android:layout_width="@dimen/y436"
+            android:id="@+id/btn_agree_rules"
+            android:layout_marginTop="@dimen/y40"
+            android:textSize="@dimen/x26"
+            android:textColor="@android:color/white"
+            android:text="@string/agree_rules"
+            android:background="@drawable/selector_orange_fillet"
+            android:layout_height="@dimen/y80"/>
+
+
+</LinearLayout>

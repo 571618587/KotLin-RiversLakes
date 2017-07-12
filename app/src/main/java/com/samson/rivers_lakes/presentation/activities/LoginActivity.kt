@@ -15,7 +15,9 @@ class LoginActivity : BaseActivity(), View.OnClickListener {
     override fun onClick(view: View?) {
         when (view?.id) {
             btn_login.id -> login()
-            btn_register.id -> ToastUtil.show("注册")
+            btn_register.id -> {
+                RegisterActivity.start(this)
+            }
             img_qq.id -> ToastUtil.show("QQ")
             img_wechat.id -> ToastUtil.show("Wechat")
             show_forget_password.id -> ToastUtil.show("忘记密码")

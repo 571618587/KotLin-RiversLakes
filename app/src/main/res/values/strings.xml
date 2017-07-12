@@ -1,10 +1,16 @@
 <resources>
     <string name="app_name">框架</string>
     <string name="quhao_86">+86</string>
-    <string name="please_write_phone">请输入手机号</string>
+    <string name="please_write_phone">请输入您的手机号</string>
     <string name="password">密码</string>
     <string name="please_write_password">请输入6-10位数字或字母</string>
     <string name="forget_password">忘记密码?</string>
     <string name="login">登录</string>
     <string name="register">注册</string>
+    <string name="send_message">发送</string>
+    <string name="please_write_code">请输入验证码</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="I_agree_with_the_rules">我同意《金融江湖规矩须知》</string>
+    <string name="rivers_lakes_rules">《金融江湖规矩》</string>
+    <string name="agree_rules">我已经阅读并同意须知协议</string>
 </resources>
